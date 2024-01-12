@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            /* margin: auto; serve para centralizar todo o conteúdo do bloco. Tamanho max. e min. que o main irá ocupar na tela.*/ 
+            margin: auto;
+            min-width: 280px;
+            max-width: 800px;
+        }
+
+        img{
+            /*Faz a imagem não ultrapassar o bloco main*/
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores optio cumque, sunt dolorum eos dicta voluptate ipsum officiis incidunt consequuntur repellendus quam, sed eum nulla blanditiis, adipisci facilis autem sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, facere! Necessitatibus provident optio possimus excepturi dolor dolorem placeat esse illum voluptatem, fuga voluptate maiores in sapiente dolorum vel ratione labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ad iste itaque, sit, sunt quisquam accusantium quas id molestiae facilis asperiores voluptatum, deserunt consequuntur quaerat veniam laudantium voluptates excepturi earum!
+        </p>
+        
+        <!-- <picture> <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> Serve para mudar a imagem quando o tamanho da tela for inferior a 600px nesse caso. -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam iure maxime iste modi dolores accusamus officia sint dolorum ad, expedita inventore a voluptatum similique dolor beatae sed? In, ex iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nihil officiis aperiam consequuntur eaque eos exercitationem ducimus! Perferendis sunt exercitationem quibusdam nobis adipisci aliquid! Quibusdam distinctio corporis laboriosam eius hic! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nam aliquid totam veritatis modi id quo, officia aperiam a nemo. Ab eum accusantium nobis magnam aliquam eaque magni, hic aspernatur! 
+        </p>
+    </main>
+</body>
+</html>

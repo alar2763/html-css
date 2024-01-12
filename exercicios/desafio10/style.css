@@ -1,0 +1,159 @@
+    @font-face {
+        font-family: Landasans;
+        src: url(fontes/landasans.ttf) format(truetype); 
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Idroid;
+        src: url(fontes/idroid.otf) format(opentype);
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header{
+        background: linear-gradient(rgba(34, 146, 34, 0.5), rgba(17, 70, 17, 1));
+        color: white;
+        padding: 10px;
+        
+        }
+
+    #principal{
+            font-family: Landasans;
+            font-weight: 300;
+            font-size: 3em;
+            text-align: center;
+        }
+
+    #text{
+            text-align: center;
+        }
+
+    nav>a{
+        color: white;
+        margin-right: 20px;
+        }
+
+    main{
+        background-color: rgb(93, 211, 148);
+    }
+
+    #historia{
+        
+        background-color: white;
+        width: 500px;
+        margin: 0px auto 0px auto;
+        padding: 5px 20px;
+    }
+
+    h1{
+        font-family: Idroid;
+        font-size: 1.5em;
+        color: rgb(17, 70, 17);
+    }
+
+    p{
+        text-indent: 30px;
+        
+    }
+
+    h2{
+        background-color: rgb(205, 223, 205);
+        font-family: Idroid;
+        font-size: 1.2em;
+        color: rgb(17, 70, 17);
+    }
+
+    #primeira{
+        background-color: white;
+        width: 500px;
+        margin: 0px auto;
+        padding: 5px 20px;
+    }
+
+    #novo{
+        background-color: white;
+        width: 500px;
+        margin: 0px auto;
+        padding: 5px 20px;
+    }
+
+    img{
+        max-width: 500px;
+        margin: 0px auto;
+    }
+
+    .bugdroid{
+        max-width: 500px;
+        margin: 0px auto;
+    }
+
+    .image{
+        text-align: center;
+    }
+
+    #aprender{
+        background-color: white;
+        width: 500px;
+        margin: 0px auto;
+        padding: 5px 20px;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+    
+    h3{
+        background-color: rgb(57, 143, 57);
+        color: white;
+        padding: 5px;
+        border-radius: 5px 5px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    .left{
+        display: inline-block;
+        margin-right: 100px;
+    }
+
+    .right{
+        display: inline-block;
+    }
+
+    .principal{
+        background-color: rgb(205, 226, 205);
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+   
+    .final{
+        background-color: white;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    span{
+        color: rgb(47, 153, 47);
+        font-weight: 600;
+    }
+
+    footer{
+        background-color: rgb(17, 70, 17);
+        text-align: center;
+        color: white;
+        padding: 5px;
+        
+    }
+
+   
+   
+   
+    
