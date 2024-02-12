@@ -14,6 +14,13 @@
             border-collapse: collapse;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: 700;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -35,19 +42,29 @@
     </style>
 </head>
 <body>
+    
     <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH-->
     <table>
+    <caption>População das Unidades Federativas</caption>
        <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>Populaçaõ</th>
-                <th>% da População total</th>
+                <th scope="col" style="width: 20%;">Posição</th>
+                <th scope="col" style="width: 30%;">Estado</th>
+                <th scope="col" style="width: 30%;">Populaçaõ</th>
+                <th scope="col" style="width: 20%;">% da População total</th>
             </tr>
        </thead>
 
        <tbody>
-
             <tr>
                 <td class="pos">1</td>
                 <td>São Paulo</td>
@@ -210,17 +227,16 @@
                 <td class="num">636 707 </td>
                 <td class="num">0,31%</td>
             </tr>
+        </tbody>
 
-            </tbody>
-
-       <tfoot>
+        <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <th>Brasil</th>
+                <th scope="row">Total de Habitantes</th>
+                <td>Brasil</td>
                 <td class="num"><strong>203 062 512</strong></td>
                 <td class="num">100%</td>
             </tr>
-       </tfoot>
+        </tfoot>
     </table>
 </body>
 </html>
