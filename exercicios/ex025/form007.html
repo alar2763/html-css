@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário7</title>
+    <style>
+        div{
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+   <h1>Exercício de Formulário</h1>
+   
+   <form action="cadastro.php" method="post" autocomplete="on">
+    <div>
+        
+        <label for="iestado">Estado</label>
+        <select name="estado" id="iestado">
+        
+            <option value=" selected --Escolha--"></option>
+
+            <optgroup label="Região Nordeste">
+                <option value="AL">Alagoas</option>
+                <option value="SE">Sergipe</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PB">Paraíba</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+
+            <optgroup label="Região Sul">
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup>
+
+        </select>
+    </div>
+
+    <div>
+    
+        <label for="iprofissao">Profissão</label>
+        <input type="text" name="profissao" id="iprofissão" list="listaprofissao">
+        <datalist id="listaprofissao">
+            <option>Professor</option>
+            <option>Médico</option>
+            <option>Cozinheiro</option>
+            <option>Gari</option>
+        </datalist>
+        
+    </div>
+
+    <div>
+        <label for="imensagem">Mensagem</label><br>
+        <textarea name="mensagem" id="imensagem" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+
+   </form>
+</body>
+</html>
