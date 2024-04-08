@@ -58,7 +58,7 @@ Grandes telas: acima de 1200px
     }
 
     main{
-        width: 700px;
+        width: 700px;   /*Para grandes telas o width terá 700px*/
     }
 
     img#phone{ display: none; }
