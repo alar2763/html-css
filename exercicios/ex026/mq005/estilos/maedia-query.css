@@ -13,6 +13,7 @@ Grandes telas: acima de 1200px
     i#burguer {
         display: none;   /* Até 768px não aparece os itens */
     }
+    
     nav {
         display: block;   /* a partir de 769px aparece todos os itens
         */
